@@ -1,0 +1,36 @@
+<div id="editproduct">
+    <h3>Edit Product</h3>
+    <form name="EditProduct" controller="Home" method='post'>
+        <p>
+        <span style="color:red" name="name"></span>
+        <label name="name">Name: </label>
+        <input type='text' name='name' placeholder="name">
+        </p>
+        <p>
+        <span style="color:red" name="description"></span>
+        <p><label name="description">Description: </label></p>
+        <textarea name="description" cols="30" rows="5" placeholder="description"></textarea>
+        <p>
+        <span style="color:red" name="price"></span>
+        <label name="price">Price: </label>
+        <input type='text' name='price' placeholder="price">
+        </p>
+        <p>
+        <span style="color:red" name="category"></span>
+        <label name="category">Category: </label>
+        <select name="category" id="">
+            <option value="man">man</option>
+            <option value="woman">woman</option>
+            <option value="boy">boy</option>
+            <option value="girl">girl</option>
+        </select>
+        </p>
+        <p>
+        <span style="color:red" name="image"></span>
+        <label name="image">Images: </label>
+        <input type='text' name='image' placeholder="image url">
+        </p>
+        <p><button type='submit' class="btn btn-primary">Update</button></p>
+        </p><span style="color:red">@TempData["error"]</span>
+    </form>
+</div>

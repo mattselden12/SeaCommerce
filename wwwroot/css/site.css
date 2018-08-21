@@ -1,0 +1,314 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.item{
+    display: inline-block;
+    margin: 1%;
+}
+
+.item img{
+    width: 130px;
+    height: 130px;
+    border: 2px solid black;
+    position: relative;
+    top: 28px;
+    z-index: -1;
+    margin-top: -28px;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.priceblock{
+    background-color: rgba(192, 190, 190, 0.507);
+}
+
+.priceblock p{
+    margin-left: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+table{
+    border: 2px solid black;
+    margin-top: 2%;
+}
+td{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+td button{
+    background:none!important;
+    color: #337AB7;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+
+th{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+thead{
+    background-color: #E9ECEF;
+}
+
+#browse .searchcat{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+
+#browse .mainbox{
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+
+#browse .bold{
+    font-weight: 600;
+}
+
+#browse .italic{
+    font-style: italic;
+}
+
+#browse input{
+    width: 80%;
+}
+
+#browse h6{
+    margin-top: 20%;
+}
+
+#browse li{
+    list-style-type: none;
+    margin: 5% 0%;
+}
+
+#browse ul{
+    margin-left: -20%;
+}
+
+#browse h2{
+    margin: 0;
+    display: inline-block;
+}
+
+#browse .navigator{
+    margin-left: 50%;
+    display: inline-block;
+}
+
+#browse h5{
+    display: inline-block;
+}
+
+#browse select{
+    display: inline-block;
+}
+
+#browse .sorting{
+    margin-left: 70%; 
+}
+
+#browse .pages{
+    margin-left: 30%;
+}
+
+#info{
+    padding-top: 1%;
+}
+
+#info h2{
+    margin: 1% 0%;
+}
+
+#info .descpurch{
+    display: inline-block;
+    width:65%;
+    vertical-align: top;
+}
+
+#info .infoimages{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+#info select{
+    display: block;
+    width: 60%;
+}
+
+#info form{
+    margin-left: 70%;
+}
+
+#info h4{
+    font-weight: 600;
+}
+
+#info .bigpic{
+    width: 300px;
+    height: 250px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+#info .smallpics img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 1%;
+}
+
+#info .bottom{
+    margin-top: 5%;
+}
+
+#cart .row{
+    margin: 0;
+}
+
+#cart h4{
+    font-weight: 600;
+    margin-left: 88%;
+}
+
+#cart .btn{
+    float:right;
+    margin-left: 80%;
+}
+
+#cart .card{
+    margin: 2% 0%;
+}
+
+#cart .Expiration{
+    display: inline-block;
+    width: 30%;
+}
+
+#cart h3{
+    display: inline-block;
+    margin: 0;
+}
+
+#orders .body{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+    margin-left: 15%;
+}
+
+#login{
+    width: 30%;
+    margin: 0 auto !important;
+    display: inline-block;
+    margin-left: 35% !important;
+}
+
+#ordershow .left{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+    margin-left: 10%;
+}
+
+#ordershow .right{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+}
+
+#ordershow .status{
+    width: 25%;
+    display: inline-block;
+    border: solid 1px black;
+    padding: 2%;
+    vertical-align: top;
+}
+
+#ordershow .subtotal{
+    width: 30%;
+    display: inline-block;
+    border: solid 1px black;
+    padding: 2%;
+}
+
+#aproducts .body{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+    margin-left: 15%;
+}
+
+#aproducts a{
+    float: right;
+    vertical-align: top;
+}
+
+#addproduct{
+    width: 30%;
+    display: inline-block;
+    margin-left: 35% !important;
+}
+
+#editproduct{
+    width: 30%;
+    display: inline-block;
+    margin-left: 35% !important;
+}
+
+#editproduct input[type="text"]::placeholder{
+    opacity: 0.6;
+    color: blue;
+}

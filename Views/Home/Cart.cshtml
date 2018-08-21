@@ -1,0 +1,147 @@
+﻿<div id="cart"> 
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Black Belt for Staff</td>
+                <td>$19.99</td>
+                <td>1 <a href=#>update</a></td>
+                <td>$19.99</td>
+            </tr>
+            <tr>
+                <td>CodingDojo Cups</td>
+                <td>$9.99</td>
+                <td>3 <a href=#>update</a></td>
+                <td>$29.97</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>Total: $49.96</h4>
+    <a href="#" class="btn btn-primary">Continue Shopping</a>
+    <div>
+        <form asp-action="Register" asp-controller="Home" method="post" class="register">
+            <h1>Shipping Address</h1>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">First Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Last Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Address:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Address2:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">City:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">State:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Zipcode:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <h1>Billing Information</h1>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Same As Shipping
+                </label>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">First Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Last Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Address:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Address2:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">City:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">State:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-2 col-form-label">Zipcode:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="card">
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Card:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Security Code:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-sm-2 col-form-label">Expiration:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control Expiration"> 
+                        <h3>/</h3>
+                        <input type="text" class="form-control Expiration">
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Pay</button>
+        </form>
+    </div>
+</div>

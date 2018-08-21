@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products and Categories Dashboard</title>
+    <style>
+        #login, .register{
+            width: 30%;
+            margin: 0 auto !important;
+            display: inline-block;
+            margin-left: 35% !important;
+
+        }
+        /* .logout{
+            float: right;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        @await Html.PartialAsync("AdminLogin.cshtml")
+        @await Html.PartialAsync("AdminRegister.cshtml")
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<div id="login">
+    <h3>Admin Login Page </h3>
+    <form name="AdminLoginProcess" controller="Home" method="post">
+    <span style="color:red" name="admin_login_email"></span>
+        <p>
+            <label name="admin_login_email">Email: </label>
+            @ViewBag.error
+            @TempData["error"]
+            <input type='text' name='admin_login_email'>
+        </p>
+        <span style="color:red" name="admin_login_password"></span>
+        <p>
+            <label name="admin_login_password">Password: </label>
+            <input type='password' name='admin_login_password'>
+        </p>
+        <p><button type='submit' class="btn btn-info">Login</button></p>
+    </form>
+</div>

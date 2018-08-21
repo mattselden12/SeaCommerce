@@ -1,0 +1,25 @@
+<div class="register">
+    <h3>Admin Register Page </h3>
+
+    <form name="AdminRegisterProcess" controller="Home" method="post">
+    <span style="color:red" name="admin_register_email"></span>
+        <p>
+            <label name="admin_register_email">Email: </label>
+            @ViewBag.error
+            @TempData["error"]
+            <input type='text' name='admin_register_email'>
+        </p>
+        <span style="color:red" name="admin_register_password"></span>
+        <p>
+            <label name="admin_register_password">Password: </label>
+            <input type='password' name='admin_register_password'>
+        </p>
+        <span style="color:red" name="admin_register_password"></span>
+
+        <p>
+            <label name="passconfirm">Password: </label>
+            <input type='password' name='passconfirm'>
+        </p>
+        <p><button type='submit' class="btn btn-success">Register</button></p>
+    </form>
+</div>
